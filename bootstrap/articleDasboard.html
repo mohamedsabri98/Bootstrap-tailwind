@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Article Dashboard</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-dark">
+        <a class="navbar-brand text-light" href="#">Show Articles</a>
+    </nav>
+    <div class="container my-4">
+        <h2 class="text-center mt-3 mb-5">Article Dashboard</h2>
+        <div class="d-flex justify-content-between mt-4">
+            <a href="#" class="btn btn-danger">Log out</a>
+            <a href="#" class="btn btn-primary">Show All Articles</a>
+        </div>
+        <form method="post" enctype="multipart/form-data" class="mt-4">
+            <div class="form-group">
+                <label for="article">Text</label>
+                <textarea class="form-control" name="article" required rows="2"
+                    style="width: 100%; height: 200px;"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="fileToUpload">Photo</label>
+                <input type="file" class="form-control-file" name="fileToUpload" id="fileToUpload" required>
+            </div>
+            <div class="btn btn-outline-primary">Save</div>
+        </form>
+    </div>
+
+
+
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

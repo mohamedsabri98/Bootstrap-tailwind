@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Show All Articles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container my-4">
+        <h2 class="text-center">Show all articles</h2><br><br>
+        <a href="articleDashboard.html" class="btn btn-primary">Add Article</a><br><br><br><br>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Username</th>
+                    <th>Article</th>
+                    <th>Photo</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>User 1</td>
+                    <td>
+                        Rated 5/5 stars by verified purchasers, Everyone Gets A Car is a contest organized by MSCHF and
+                        MrBeast.
+                        MSCHF is a next-generation street art collective that specializes in creating products and
+                        experiences that mashup art,
+                        luxury fashion, and social commentary.
+                        MrBeast, also known as Jimmy Donaldson,
+                        is an American YouTuber with more than 75 million subscribers and more than 13 billion views.
+                    </td>
+
+                    <td>
+                        <div class="photo-container">
+                            <a><img src="photos/lamborgini car.jpeg" width="200" height="150" alt="lamborgini car"></a>
+                            lamborgini car <br>
+                            <div class="btn btn-outline-primary mt-2">view</div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btn-group">
+                            <a href="view.php?id=1" class="btn btn-danger">View</a>
+                            <a href="editarticle.php?id=1" class="btn btn-primary">Edit</a>
+                            <a href="deletearticle.php?id=1" class="btn btn-danger">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>2</td>
+                    <td>User 2</td>
+                    <td>
+                        Rated 5/5 stars by verified purchasers, Everyone Gets A Car is a contest organized by MSCHF and
+                        MrBeast.
+                        MSCHF is a next-generation street art collective that specializes in creating products and
+                        experiences that mashup art,
+                        luxury fashion, and social commentary.
+                        MrBeast, also known as Jimmy Donaldson,
+                        is an American YouTuber with more than 75 million subscribers and more than 13 billion views.
+                    </td>
+
+                    <td>
+                        <div class="photo-container">
+                            <a><img src="photos/lamborgini car 2.jpeg" width="200" height="150" alt="lamborgini car"></a>
+                            lamborgini car <br>
+                            <div class="btn btn-outline-primary mt-2">view</div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="btn-group">
+                            <a href="view.php?id=1" class="btn btn-danger">View</a>
+                            <a href="editarticle.php?id=1" class="btn btn-primary">Edit</a>
+                            <a href="deletearticle.php?id=1" class="btn btn-danger">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
