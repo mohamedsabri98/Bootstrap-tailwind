@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container m-10">
+        <h2 class="text-center text-4xl font-semibold">Show all articles</h2><br><br>
+        <a href="articleDashboard.html"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded">add article</button>
+        </a><br><br><br><br>
+        <table class="table-auto">
+            <thead>
+                <tr>
+                    <th class="border">id</th>
+                    <th class="border">Username</th>
+                    <th class="border">Article</th>
+                    <th class="border">Photo</th>
+                    <th class="border">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border">1</td>
+                    <td class="border">User 1</td>
+                    <td class="border">
+                        Rated 5/5 stars by verified purchasers, Everyone Gets A Car is a contest organized by MSCHF and
+                        MrBeast.
+                        MSCHF is a next-generation street art collective that specializes in creating products and
+                        experiences that mashup art,
+                        luxury fashion, and social commentary.
+                        MrBeast, also known as Jimmy Donaldson,
+                        is an American YouTuber with more than 75 million subscribers and more than 13 billion views.
+                    </td>
+
+                    <td class="border">
+                        <a><img src="photos/lamborgini car.jpeg">lamborgini car </a>
+                        <a href="view.php?id=1"
+                            class="bg-transparent hover:bg-blue-500 text-blue-700 font- hover:text-white px-2 border border-blue-500 hover:border-transparent rounded ">
+                            view
+                            </button></a>
+                    </td>
+
+                    <td class="border">
+                        <div class="flex space-x-4 ">
+                            <a href="view.php?id=1" class="bg-red-500 hover:bg-red-700 text-white px-2 rounded">view</a>
+                            <a href="editarticle.php?id=1"
+                                class="bg-blue-500 hover:bg-blue-700 text-white px-2 rounded">Edit</a>
+                            <a href="deletearticle.php?id=1"
+                                class="bg-red-500 hover:bg-red-700 text-white px-2 rounded">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="border">2</td>
+                    <td class="border">User 2</td>
+                    <td class="border">
+                        Rated 5/5 stars by verified purchasers, Everyone Gets A Car is a contest organized by MSCHF and
+                        MrBeast.
+                        MSCHF is a next-generation street art collective that specializes in creating products and
+                        experiences that mashup art,
+                        luxury fashion, and social commentary.
+                        MrBeast, also known as Jimmy Donaldson,
+                        is an American YouTuber with more than 75 million subscribers and more than 13 billion views.
+                    </td>
+
+                    <td class="border">
+                        <a><img src="photos/lamborgini car 2.jpeg">lamborgini car</a><br>
+                        <a href="view.php?id=1"
+                            class="bg-transparent hover:bg-blue-500 text-blue-700 hover:text-white px-2 border border-blue-500 hover:border-transparent rounded pt-5">
+                            view
+                            </button></a>
+
+                    </td>
+
+                    <td class="border">
+                        <div class="flex space-x-2">
+                            <a href="view.php?id=1" class="bg-red-500 hover:bg-red-700 text-white px-2 rounded">view</a>
+                            <a href="editarticle.php?id=1"
+                                class="bg-blue-500 hover:bg-blue-700 text-white px-2 rounded">Edit</a>
+                            <a href="deletearticle.php?id=1"
+                                class="bg-red-500 hover:bg-red-700 text-white px-2 rounded">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
